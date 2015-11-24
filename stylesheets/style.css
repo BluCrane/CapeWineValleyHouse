@@ -51,9 +51,7 @@ body > .container {
     border-color: transparent;
 }
 
-.container>.navbar-header {
-    clear: both;
-}
+
 
 /* Media Queries
 -------------------------------------------------- */
