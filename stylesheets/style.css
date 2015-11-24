@@ -51,7 +51,7 @@ body > .container {
     border-color: transparent;
 }
 
-.navbar-header {
+.container>.navbar-header {
     clear: both;
 }
 
