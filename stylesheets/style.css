@@ -54,8 +54,7 @@ body > .container {
 
 .navbar-nav {
     background-color: rgba(0,0,0,0.3);
-    position: fixed;
-    top: 16em;
+	
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -72,6 +71,14 @@ body > .container {
 
 /* Media Queries
 -------------------------------------------------- */
+/* Large Devices, Wide Screens */
+@media screen and (min-width: 768px) and (min-height: 600px){
+	.navbar-nav {
+    		position: fixed;
+    		top: 16em;
+	}
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px){
 	
