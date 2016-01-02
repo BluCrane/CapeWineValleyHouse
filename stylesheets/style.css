@@ -44,6 +44,7 @@ body > .container {
 
 .nav>li {
  	clear: both;
+ 	width: 100%;
 }
 
 .navbar-default {
