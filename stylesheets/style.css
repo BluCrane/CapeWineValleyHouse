@@ -51,7 +51,9 @@ body > .container {
     border-color: transparent;
 }
 
-
+.navbar-nav {
+    background-color: rgba(0,0,0,0.5);
+}
 
 /* Media Queries
 -------------------------------------------------- */
