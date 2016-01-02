@@ -56,6 +56,14 @@ body > .container {
     margin: 20% 0 0 0;
 }
 
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
 /* Media Queries
 -------------------------------------------------- */
 /* Large Devices, Wide Screens */
