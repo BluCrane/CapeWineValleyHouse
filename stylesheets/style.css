@@ -73,8 +73,8 @@ body > .container {
     		top: 16em;
 	}
 	.nav>li {
- 	clear: both;
- 	width: 100%;
+ 		clear: both;
+ 		width: 100%;
 	}
 }
 
