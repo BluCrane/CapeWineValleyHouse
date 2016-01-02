@@ -61,7 +61,7 @@ body > .container {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: white;
+    color: orange;
 }
 
 /* Media Queries
