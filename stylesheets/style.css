@@ -42,11 +42,6 @@ body > .container {
   padding-left: 15px;
 }
 
-.nav>li {
- 	clear: both;
- 	width: 100%;
-}
-
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
@@ -76,6 +71,10 @@ body > .container {
 	.navbar-nav {
     		position: fixed;
     		top: 16em;
+	}
+	.nav>li {
+ 	clear: both;
+ 	width: 100%;
 	}
 }
 
