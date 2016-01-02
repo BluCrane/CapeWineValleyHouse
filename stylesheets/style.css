@@ -54,6 +54,8 @@ body > .container {
 
 .navbar-nav {
     background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 16em;
 }
 
 .navbar-default .navbar-nav>li>a {
