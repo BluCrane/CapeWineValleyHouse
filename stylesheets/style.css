@@ -54,7 +54,6 @@ body > .container {
 
 .navbar-nav {
     background-color: rgba(0,0,0,0.3);
-    margin: 20% 0 0 0;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -73,17 +72,13 @@ body > .container {
 -------------------------------------------------- */
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px){
-	.navbar-nav {
-    		margin: 25% 0 0 0;
-	}
+	
  
 }
  
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px){
-	.navbar-nav {
-    		margin: 30% 0 0 0;
-	}
+
 
 }
  
