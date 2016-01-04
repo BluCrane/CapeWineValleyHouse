@@ -47,20 +47,20 @@ body > .container {
     border-color: transparent;
 }
 
-.navbar-nav {
+.navtabs {
     background-color: rgba(0,0,0,0.3);
 	
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navtabs>li>a {
     color: white;
 }
 
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navtabs>li>a:hover {
     color: orange;
 }
 
-.navbar-default .navbar-nav>li>a:focus {
+.navbar-default .navtabs>li>a:focus {
     background-color: rgba(255,255,255,0.3);
 }
 
@@ -89,7 +89,7 @@ body > .container {
  		clear: both;
  		width: 100%;
 	}
-	.navbar-nav {		/* positioning of vertical navbar */
+	.navtabs {		/* positioning of vertical navbar */
     		margin: 14em 0 0 -12em;
 	}
 	#header {           	/* page-header container */
@@ -125,7 +125,7 @@ body > .container {
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
     		border-color: transparent;
 	}
-	.navbar-nav {
+	.navtabs {
     		background-color: green;
     		text-align: center;
 	}
