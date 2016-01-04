@@ -72,6 +72,10 @@ body > .container {
     background-color: white;
 }
 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: green;
+}
+
 .page-header {
     margin: 0;
     border: none;
