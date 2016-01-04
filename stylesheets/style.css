@@ -97,7 +97,7 @@ body > .container {
  
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px){
-	#logo img {
+	img #logo {
 		width: 50%;
 	}
  
