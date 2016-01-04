@@ -102,19 +102,16 @@ body > .container {
 /* Transition size - MS */
 @media only screen and (max-width : 600px){
 	img#logo.img-responsive {
-		width: 80%;
+		width: 50%;
+	}
+	.page-header.text-right {
+    		text-align: left;
 	}
  
 }
  
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px){
-	img#logo.img-responsive {
-		width: 50%;
-	}
-	.page-header.text-right {
-    		text-align: left;
-	}
  
 }
  
