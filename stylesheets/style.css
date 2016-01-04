@@ -47,6 +47,19 @@ body > .container {
     border: none;
 }
 
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+    width: 100%;
+}
+
+
+
 /* Media Queries
 -------------------------------------------------- */
 /* Miscellaneous */
@@ -58,6 +71,14 @@ body > .container {
 	}
 	.page-header {
 		    padding-right: 15%;
+	}
+	.nav-tabs {
+    		border-bottom: none;
+    		width: 25%;
+    		float: left;
+    		position: relative;
+    		top: 12em;
+    		left: -10em;
 	}
 }
 
