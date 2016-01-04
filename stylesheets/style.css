@@ -47,20 +47,20 @@ body > .container {
     border-color: transparent;
 }
 
-.navtabs {
+.nav-tabs {
     background-color: rgba(0,0,0,0.3);
 	
 }
 
-.navbar-default .navtabs>li>a {
+.navbar-default .nav-tabs>li>a {
     color: white;
 }
 
-.navbar-default .navtabs>li>a:hover {
+.navbar-default .nav-tabs>li>a:hover {
     color: orange;
 }
 
-.navbar-default .navtabs>li>a:focus {
+.navbar-default .nav-tabs>li>a:focus {
     background-color: rgba(255,255,255,0.3);
 }
 
@@ -89,7 +89,7 @@ body > .container {
  		clear: both;
  		width: 100%;
 	}
-	.navtabs {		/* positioning of vertical navbar */
+	.nav-tabs {		/* positioning of vertical navbar */
     		margin: 14em 0 0 -12em;
 	}
 	#header {           	/* page-header container */
@@ -125,7 +125,7 @@ body > .container {
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
     		border-color: transparent;
 	}
-	.navtabs {
+	.nav-tabs {
     		background-color: green;
     		text-align: center;
 	}
