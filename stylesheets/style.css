@@ -87,7 +87,7 @@ body > .container {
 	.navbar-nav {
     		margin: 14em 0 0 -12em;
 	}
-	#header .container {
+	#header.container {
 		width: 100%;
 		background-color: rgba(0,0,0,0.3);
 	}
