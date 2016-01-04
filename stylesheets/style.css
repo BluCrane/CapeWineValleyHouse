@@ -127,7 +127,7 @@ body > .container {
 	}
 	.navbar-nav {
     		background-color: green;
-	
+    		text-align: center;
 	}
 }
 
