@@ -84,6 +84,9 @@ body > .container {
  		clear: both;
  		width: 100%;
 	}
+	.navbar-nav {
+    		margin: 14em 0 0 -12em;
+	}
 }
 
 
