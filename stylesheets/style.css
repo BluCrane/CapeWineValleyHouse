@@ -112,6 +112,9 @@ body > .container {
 	img#logo.img-responsive {
 		width: 50%;
 	}
+	.page-header.text-right {
+    		text-align: left;
+	}
  
 }
  
