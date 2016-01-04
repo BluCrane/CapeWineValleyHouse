@@ -81,7 +81,6 @@ body > .container {
     		left: -10em;
 	}
 	.tab-content>.tab-pane {
-    		display: none;
     		float: right;
     		width: 70%;
 	}
