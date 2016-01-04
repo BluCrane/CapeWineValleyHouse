@@ -90,8 +90,11 @@ body > .container {
  
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px){
-
-
+	.navbar-nav {
+    		top: 10em;
+    		position: relative;
+	}
+	
 }
  
 /* Small Devices, Tablets */
