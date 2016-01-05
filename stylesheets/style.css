@@ -80,9 +80,10 @@ body > .container {
     		top: 12em;
     		left: -10em;
 	}
-	.tab-content>.tab-pane {
-    		float: right;
+	.tab-content {
     		width: 70%;
+    		float: left;
+    		margin-left: 30%;
 	}
 }
 
