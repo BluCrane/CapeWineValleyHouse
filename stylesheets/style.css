@@ -121,6 +121,9 @@ body > .container {
 	.nav-tabs {
 		background-color: green;	
 	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    		border-color: transparent;
+	}
 }	
 
 /* Transition size - MS */
