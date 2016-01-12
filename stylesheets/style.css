@@ -87,8 +87,8 @@ body > .container {
 }
 
 .carousel-inner p {
-	margin: 0;
-	padding: 0;
+	text-align: center;
+	padding: 0 !important;
 }
 
 /* Media Queries
