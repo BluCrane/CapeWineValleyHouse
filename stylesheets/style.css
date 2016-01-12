@@ -69,10 +69,10 @@ body > .container {
     border: none;
 }
 
-.nav-tabs>li.active>a {
-    color: white;
-    background-color: darkgreen;
-    border: none;
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    	color: white;
+    	background-color: darkgreen;
+    	border: none;
 }
 
 /* Media Queries
