@@ -57,6 +57,13 @@ body > .container {
     		width: 100%;
 }
 
+.nav-tabs>li>a {
+    color: white;
+    margin-right: 0;
+    border: none;
+    border-radius: 0;
+}
+
 
 
 /* Media Queries
