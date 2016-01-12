@@ -52,6 +52,11 @@ body > .container {
     border-color: transparent;
 }
 
+.nav-tabs>li {
+    		float: left;
+    		width: 100%;
+}
+
 
 
 /* Media Queries
@@ -75,9 +80,7 @@ body > .container {
     		left: -10em;
 	}
 	.nav-tabs>li {
-    		float: left;
     		margin-bottom: 5px;
-    		width: 100%;
     		border: 1px solid lightgreen;
 	}
 	.tab-content {
@@ -108,7 +111,9 @@ body > .container {
 	.navbar-fixed-top .navbar-collapse {
     		max-height: none;
 	}
-}
+	.nav-tabs {
+		background-color: rgba(0,255,0,0.5);	
+	}
 
 /* Transition size - MS */
 @media only screen and (max-width : 600px){
