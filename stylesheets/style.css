@@ -64,7 +64,16 @@ body > .container {
     border-radius: 0;
 }
 
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: yellowgreen;
+    border: none;
+}
 
+.nav-tabs>li.active>a {
+    color: white;
+    background-color: darkgreen;
+    border: none;
+}
 
 /* Media Queries
 -------------------------------------------------- */
