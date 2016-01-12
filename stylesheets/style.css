@@ -52,12 +52,6 @@ body > .container {
     border-color: transparent;
 }
 
-.nav-tabs>li {
-    float: left;
-    margin-bottom: -1px;
-    width: 100%;
-}
-
 
 
 /* Media Queries
@@ -79,6 +73,12 @@ body > .container {
     		position: relative;
     		top: 12em;
     		left: -10em;
+	}
+	.nav-tabs>li {
+    		float: left;
+    		margin-bottom: 5px;
+    		width: 100%;
+    		border: 1px solid lightgreen;
 	}
 	.tab-content {
     		width: 60%;
