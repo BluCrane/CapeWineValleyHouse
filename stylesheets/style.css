@@ -80,6 +80,9 @@ body > .container {
 
 .tab-content>.tab-pane {
     	background-color: rgba(0,0,0,0.5);
+}
+
+.tab-content>.tab-pane p {
     	padding: 1em;
 }
 
