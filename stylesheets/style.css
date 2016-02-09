@@ -150,7 +150,8 @@ body > .container {
     		max-height: none;
 	}
 	.nav-tabs {
-		background-color: green;	
+		background-color: green;
+    		border-bottom: none;
 	}
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
     		border-color: transparent;
