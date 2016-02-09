@@ -155,17 +155,9 @@ body > .container {
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
     		border-color: transparent;
 	}
-}	
-
-/* Transition size - MS */
-@media only screen and (max-width : 600px){
 	img#logo.img-responsive {
 		width: 50%;
 	}
-	.page-header.text-right {
-    		text-align: left;
-	}
- 
 }
  
 /* Extra Small Devices, Phones */
