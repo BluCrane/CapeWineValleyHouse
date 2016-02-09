@@ -83,8 +83,13 @@ body > .container {
 }
 
 .tab-content>.tab-pane p {
-    	padding: 1em;
+    	padding: 0.2em 1em;
 }
+
+.tab-content>.tab-pane h3 {
+    	padding: 0.375em;
+}
+
 
 .carousel-inner p {
 	text-align: center;
