@@ -80,6 +80,7 @@ body > .container {
 
 .tab-content>.tab-pane {
     	background-color: rgba(0,0,0,0.7);
+    	background-color: rgba(0,0,0,0.7);
 }
 
 .tab-content>.tab-pane p {
@@ -128,6 +129,10 @@ body > .container {
     		float: left;
     		margin-left: 40%;
     		margin-top: -8em;
+	}
+	.tab-content>.tab-pane {
+	border: 1px solid lightgreen;
+    	border-radius: 10px;
 	}
 }
 
