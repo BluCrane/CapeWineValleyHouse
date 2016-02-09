@@ -97,6 +97,10 @@ body > .container {
 	padding: 0 !important;
 }
 
+#maps iframe {
+	max-width: 100%;
+}
+
 /* Media Queries
 -------------------------------------------------- */
 /* Miscellaneous */
