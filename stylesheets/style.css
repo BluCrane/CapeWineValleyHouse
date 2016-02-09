@@ -25,7 +25,6 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: rgba(0,0,0,0.5);
 }
 
 /* Custom page CSS
@@ -80,7 +79,7 @@ body > .container {
 }
 
 .tab-content>.tab-pane {
-    	background-color: rgba(0,0,0,0.5);
+    	background-color: rgba(0,0,0,0.7);
 }
 
 .tab-content>.tab-pane p {
@@ -107,7 +106,6 @@ body > .container {
 @media screen and (min-width: 768px){
 	#header {           	/* page-header container */
 		width: 100%;
-		background-color: rgba(0,0,0,0.3);
 		padding: 0;
 	}
 	.page-header {
