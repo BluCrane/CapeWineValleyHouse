@@ -115,7 +115,7 @@ body > .container {
     	padding: 10px;
 }
 
-#trip img {
+img#trip {
 	background: white;
     	border-radius: 4px;
 }
