@@ -197,7 +197,17 @@ img#trip {
  
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px){
- 
+	.btn-block {
+    display: inline-block;
+    width: initial;
+	}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+	}
 }
  
 /* Custom, iPhone Retina */
