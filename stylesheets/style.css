@@ -156,8 +156,7 @@ img#trip {
     		margin-top: -8em;
 	}
 	.tab-content>.tab-pane {
-	border: 1px solid lightgreen;
-    	border-radius: 6px;
+	border: 1px solid palegreen;
 	}
 }
 
