@@ -186,8 +186,12 @@ img#trip {
 	img#logo.img-responsive {
 		width: 50%;
 	}
-	.page-header.text-right {
-		text-align: left;
+	#header {
+		background-color:rgba(0,0,0,0.3);
+	}
+	.page-header {
+		margin-top: 4.5em;
+    		background-color: transparent;
 	}
 }
  
