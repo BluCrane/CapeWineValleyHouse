@@ -47,7 +47,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
            <!-- Nav tabs -->
-  <ul class="nav nav-tabs" role="tablist">
+  <ul class="nav nav-tabs collapse" role="tablist">
     <li role="presentation" class="active"><a href="#welcome" aria-controls="welcome" role="tab" data-toggle="tab">Welcome</a></li>
     <li role="presentation"><a href="#rooms" aria-controls="rooms" role="tab" data-toggle="tab">Rooms</a></li>
     <li role="presentation"><a href="#facilities" aria-controls="facilities" role="tab" data-toggle="tab">Facilities</a></li>
@@ -189,7 +189,7 @@
 		<script>
       			$(document).ready(function () {
   $(".nav-tabs li a").click(function(event) {
-    $(".navbar-collapse").collapse('hide');
+    $(".nav-tabs").collapse('hide');
   });
 });
     		</script>
