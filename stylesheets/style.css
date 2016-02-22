@@ -66,8 +66,44 @@ body {
     padding-bottom: 8em;
 }
 
+.nav-tabs>li {
+    		float: left;
+    		width: 100%;
+}
 
+.nav-tabs>li>a {
+    color: white;
+    margin-right: 0;
+    border: none;
+    border-radius: 0;
+}
 
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: yellowgreen;
+    border: none;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    	color: white;
+    	background-color: darkgreen;
+    	border: none;
+}
+
+.tab-content>.tab-pane {
+    	background-color: rgba(0,0,0,0.7);
+}
+
+.tab-content>.tab-pane p {
+    	padding: 0.2em 1em;
+}
+
+.tab-content>.tab-pane h3 {
+    	padding-left: 0.375em;
+}
+
+.tab-content>.tab-pane h4 {
+    	padding-left: 0.375em;
+}
 
 .carousel-inner p {
 	text-align: center;
@@ -100,7 +136,27 @@ img#trip {
 	.page-header {
 		    padding-right: 15%;
 	}
-	
+	.nav-tabs {
+    		border-bottom: none;
+    		width: 25%;
+    		float: left;
+    		position: relative;
+    		top: 12em;
+    		left: -10em;
+	}
+	.nav-tabs>li {
+    		margin-bottom: 5px;
+    		border: 1px solid lightgreen;
+	}
+	.tab-content {
+    		width: 60%;
+    		float: left;
+    		margin-left: 40%;
+    		margin-top: -11.5em;
+	}
+	.tab-content>.tab-pane {
+	border: 1px solid palegreen;
+	}
 	.footer {
 		    height: 70px;
 	}
@@ -126,7 +182,11 @@ img#trip {
 	.navbar-fixed-top .navbar-collapse {
     		max-height: none;
 	}
-		.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	.nav-tabs {
+		background-color: green;
+    		border-bottom: none;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
     		border-color: transparent;
 	}
 	img#logo.img-responsive {
