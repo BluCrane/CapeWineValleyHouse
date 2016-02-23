@@ -129,6 +129,22 @@ img#trip {
     white-space: normal;
 }
 
+.navbar-default .navbar-toggle {
+    border-color: lightgreen;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: green;
+}
+
+.navbar-toggle {
+    border: 2px solid transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: lightgreen;
+}
+
 /* Media Queries
 -------------------------------------------------- */
 /* Miscellaneous */
