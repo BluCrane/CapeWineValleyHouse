@@ -133,7 +133,7 @@ img#trip {
     border-color: lightgreen;
 }
 
-.navbar-default .navbar-toggle:hover {
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: green;
 }
 
