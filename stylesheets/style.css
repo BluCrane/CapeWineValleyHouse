@@ -125,11 +125,6 @@ img#trip {
     	border-radius: 4px;
 }
 
-.xs-collapse {
-  display: none;
-  visibility: hidden;
-}
-
 /* Media Queries
 -------------------------------------------------- */
 /* Miscellaneous */
@@ -165,10 +160,7 @@ img#trip {
 	.footer {
 		    height: 70px;
 	}
-	.xs-collapse {
-    		display: block;
-    		visibility: visible;
-  	}
+	
 }
 
 @media screen and (min-width: 768px) and (max-height: 500px){
