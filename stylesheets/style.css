@@ -125,6 +125,10 @@ img#trip {
     	border-radius: 4px;
 }
 
+.btn {
+    white-space: normal;
+}
+
 /* Media Queries
 -------------------------------------------------- */
 /* Miscellaneous */
