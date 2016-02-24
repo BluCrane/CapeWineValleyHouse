@@ -1,0 +1,4 @@
+name: Cape Wine Valley House | Durbanville | Cape Town
+markdown: kramdown
+gems:
+  - jekyll-sitemap
