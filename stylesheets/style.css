@@ -130,6 +130,12 @@ img#trip {
     white-space: normal;
 }
 
+#footcollumn1 .btn {
+    border: 2px solid;
+    color: gold;
+    font-weight: bold;
+}   
+
 .navbar-default .navbar-toggle {
     border-color: lightgreen;
 }
