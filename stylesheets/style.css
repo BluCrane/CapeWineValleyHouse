@@ -47,7 +47,7 @@ body {
 .page-header h1 {
 	font-family:"Lucida Bright", Georgia, serif;
 	font-weight:bold;
-	color: chartreuse;
+	color: gold;
     	text-shadow: 1px 1px 2px darkgreen;
     	padding-top: 10px;
 }
@@ -99,6 +99,7 @@ body {
 
 .tab-content>.tab-pane h3 {
     	padding-left: 0.375em;
+    	color: gold;
 }
 
 .tab-content>.tab-pane h4 {
