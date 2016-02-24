@@ -145,6 +145,10 @@ img#trip {
     background-color: lightgreen;
 }
 
+#footrow1 .list-inline>li {
+    float: left;
+}
+
 /* Media Queries
 -------------------------------------------------- */
 /* Miscellaneous */
