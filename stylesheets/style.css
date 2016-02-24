@@ -149,10 +149,6 @@ img#trip {
     float: left;
 }
 
-#footcollumn1 ul {
-	margin-left: 20px;
-}
-
 /* Media Queries
 -------------------------------------------------- */
 /* Miscellaneous */
@@ -187,6 +183,9 @@ img#trip {
 	}
 	.footer {
 		    height: 70px;
+	}
+	#footcollumn1 ul {
+	margin-left: 20px;
 	}
 	
 }
