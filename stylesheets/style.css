@@ -108,11 +108,18 @@ body {
 
 .carousel-inner p {
 	text-align: center;
-	padding: 0 !important;
+	padding: 0 5em !important;
 }
 
 .carousel-caption {
 	background: rgba(0,0,0,0.3);
+	padding: 0;
+	left: 0;
+	right:0;
+}
+
+ .carousel-indicators {
+	display: none;
 }
 
 #maps iframe {
@@ -194,6 +201,9 @@ img#trip {
 	#footcollumn1 ul {
 	margin-left: 20px;
 	}
+	img#merchantlogos {
+    		max-width: 75%;
+	}
 	
 }
 
@@ -209,6 +219,9 @@ img#trip {
  
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px){
+	.carousel-inner p {
+	padding: 0 1em !important;
+	}
 	
 }
  
@@ -238,7 +251,19 @@ img#trip {
  
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px){
-	
+	.carousel-inner p {
+		display: none;
+	}
+	img#trip {
+	display:none;
+	}
+	#footcollumn2 li:first-child a {
+		    background: url(https://cloud.githubusercontent.com/assets/9150985/13378811/ea29f732-de1a-11e5-9a2b-01bee0a09ac5.png) no-repeat center center;
+			display: block;
+			height: 36px;
+			width: 36px;
+			border-radius: 4px;
+	}
 }
  
 /* Custom, iPhone Retina */
