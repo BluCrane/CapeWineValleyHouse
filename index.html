@@ -38,6 +38,23 @@
 	
 	<body>
     <!-- Facebook SDK -->
+    	<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '940327769416732',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
     <!-- schema.org microdata -->
     	<meta itemprop="url" content="http://capewinevalleyhouse.co.za/">
 	<meta itemprop="telephone" content="+27 (84) 886 9863">
@@ -159,10 +176,11 @@
     	<h3>Contact us</h3>
     	<p class="text-center"><a class="btn btn-success btn-lg" href="http://www.nightsbridge.co.za/bridge/book?bbid=19690&nbid=4" role="button">Check availability and book a room</a></p>
     	<ul>
-       	<li><strong>Cell:</strong> +27 (84) 886 9863</li>
-    	<li><strong>Email:</strong> info@capewinevalleyhouse.co.za</li>
-    	<li><strong>Web:</strong> www.capewinevalleyhouse.co.za</li>
-    	<li><strong>Address:</strong> 12 Jansen Street, Aurora, Durbanville<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cape Town<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7550<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;South Africa</li>
+       		<li><strong>Cell:</strong> +27 (84) 886 9863</li>
+    		<li><strong>Email:</strong> info@capewinevalleyhouse.co.za</li>
+    		<li><strong>Web:</strong> www.capewinevalleyhouse.co.za</li>
+    		<li><strong>Address:</strong> 12 Jansen Street, Aurora, Durbanville<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cape Town<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7550<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;South Africa</li>
+    		<li><span class="fb-follow" data-href="https://www.facebook.com/capewinevalleyhouse/" data-width="225" data-colorscheme="light" data-layout="standard" data-show-faces="false"></span></li>
     	</ul>
     </div>
     <div role="tabpanel" class="tab-pane fade" id="terms">
